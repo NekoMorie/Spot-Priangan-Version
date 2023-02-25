@@ -1,0 +1,49 @@
+@media only screen and (max-width: 600px) {
+    ::-webkit-scrollbar {
+      width: 0px;
+    }
+    ::-webkit-scrollbar-corner {
+      background: transparent;
+    }
+    ::-webkit-scrollbar-button {
+      background: transparent;
+    }
+    ::-webkit-scrollbar-track-piece {
+      background: transparent;
+    }
+    ::-webkit-scrollbar-track {
+      background: transparent;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: transparent;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: transparent;
+    }
+  }
+  @media only screen and (min-width: 600px) {
+    ::-webkit-scrollbar {
+      width: 5px;
+      border-radius: 0;
+      background: rgba(28, 34, 54, 1);
+    }
+    ::-webkit-scrollbar-corner {
+      background: transparent;
+    }
+    ::-webkit-scrollbar-button {
+      background: transparent;
+    }
+    ::-webkit-scrollbar-track-piece {
+      background: transparent;
+    }
+    ::-webkit-scrollbar-track {
+      background: transparent;
+    }
+    ::-webkit-scrollbar-thumb {
+      background-color: rgba(217, 217, 217, 0.1);
+      border-radius: 3.5px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      rgba(217, 217, 217, 0.4)
+    }
+  }

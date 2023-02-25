@@ -1,0 +1,89 @@
+* {
+    overflow:hidden; /* or auto */
+    margin: 0;
+    padding: 0;
+    }
+            .container{
+                background-color: #171E37;
+                width: 300px;
+                height: 500px;
+            }
+            .allcard{
+                width: 100%; padding-top:10px;height: 60vh; overflow-y: scroll; text-align: center; box-shadow: rgba(0, 0, 0, 0.3) -5px 0px 10px inset; 
+                
+            }
+            .cardabout {
+              display: flex;
+              flex-direction: column;
+              max-width: 258px;
+              justify-content: flex-start;
+              margin-bottom: 10px !important; 
+              align-items: center;
+              border-radius: 15px;
+              margin: auto; /* Center the div horizontally */
+              padding-top: 9px;
+              padding-right: 43px;
+              padding-bottom: 9px;
+              padding-left: 43px;
+              background-color: rgba(29, 37, 67, 1);
+            }
+            .nama {
+              max-width: 200px;
+              color: rgba(255, 255, 255, 1);
+              font-size: 12px;
+              text-align: center;
+              font-family: "Lexend", sans-serif;
+            }
+            .nim {
+              max-width: 67px;
+              margin-top: 1px;
+              color: rgba(255, 255, 255, 1);
+              font-size: 10px;
+              letter-spacing: 0%;
+              text-align: center;
+              font-family: "Lexend", sans-serif;
+            }
+            .jurusan {
+              margin-top: 1px;
+              color: rgba(2, 131, 204, 1);
+              font-size: 10px;
+              text-align: center;
+              font-family: "Lexend", sans-serif;
+            }
+    
+            .center {
+          margin: auto;
+          display: flex;
+          flex-direction: column;
+          max-width: 177px;
+          justify-content: center;
+          align-items: center;
+        }
+        .thank {
+          max-width: 115px;
+          color: rgba(2, 131, 204, 1);
+          font-size: 20px;
+          padding-top: 20px;
+          letter-spacing: 0%;
+          text-align: left;
+          font-family: "Lexend", sans-serif;
+        }
+        .you {
+          max-width: 177px;
+          margin-top: 22px;
+          color: rgba(255, 255, 255, 1);
+          font-size: 12px;
+          letter-spacing: 0%;
+          text-align: center;
+          font-family: "Lexend", sans-serif;
+        }
+        .aboutus {
+          max-width: 153px;
+          margin-top: 22px;
+          margin-bottom: 9px;
+          color: rgba(255, 255, 255, 1);
+          font-size: 12px;
+          letter-spacing: 0%;
+          text-align: center;
+          font-family: "Lexend", sans-serif;
+        }

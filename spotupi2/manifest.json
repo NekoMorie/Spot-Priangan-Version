@@ -1,0 +1,29 @@
+{
+    "manifest_version": 3,
+    "name": "Spot UPI Style",
+    "description": "Changes the appearance of the Spot UPI interface",
+    "version": "1.0",
+    "author": "PojokProduktif",
+    "icons" : {
+      "16": "logo.png",
+      "48": "logo.png",
+      "128": "logo.png"
+    },
+    "browser_action": {
+      "default_icon": "logo.png"
+    },
+    "content_scripts": [
+      {
+        "js": ["spot.js"],
+        "matches": ["https://spot.upi.edu/*"],
+        "run_at": "document_end"
+      }
+    ],
+    "action":{
+      "default_popup": "aboutus.html",
+      "default_title": "Spot UPI Style"
+  },
+    "permissions": [
+      "activeTab","tabs"
+    ]
+  }
